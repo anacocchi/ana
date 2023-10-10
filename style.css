@@ -1,0 +1,48 @@
+body{
+    background-color: #D8BFD8;
+    color: aquamarine;
+    display: grid;
+    grid-template-areas:
+    "aside header header"
+    "aside main main"
+    "aside footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 93vh auto;
+    text-align: center;
+}
+
+#enquete{
+    grid-area: aside;
+    background-color: #483D8B;
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid;
+}
+
+#topo{
+    grid-area: header;
+    background-color: #483D8B;
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid;
+} 
+
+#corpo{
+    grid-area: main;
+    background-color: #483D8B;
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid;
+}
+
+#rodape {
+    grid-area: footer;
+    background-color: #483D8B;
+    color: aquamarine;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid;
+}
